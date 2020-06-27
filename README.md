@@ -23,7 +23,7 @@ accentColor: Colors.amber[200],
 ## Completed Design
 |Loading Page|Home Page Day|Home Page Night|Edit Location|
 |---|---|---|---|
-|![Loading](assets/Loading.png)|![Home Page Day](assets/HomaPageDay.png)|![Home Page Night](assets/HomePageNight.png)|![Edit Location](assets/EditLocation.png)|
+|![Loading](assets/weather_app/Loading.png)|![Home Page Day](assets/weather_app/HomaPageDay.png)|![Home Page Night](assets/weather_app/HomePageNight.png)|![Edit Location](assets/weather_app/EditLocation.png)|
 
 ## Follow me
 Linked in: 
