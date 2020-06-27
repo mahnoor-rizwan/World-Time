@@ -11,15 +11,12 @@ Platroms: Android and ios
 2. ios -> deeloped (not tested yet)
 
 ## Challange in implementation
-After I implemented the code I realized that there was some problem with the time of places whose timezone is -GMT and I corrected it by applying this logic. I caught the strong
+After I implemented the code I realized that there was some problem with the time of places whose timezone is -GMT and I corrected it by applying this logic: 
+```
+sign == '+' ? now = now.add(Duration(hours: int.parse(offset))) : now = now.subtract(Duration(hours: int.parse(offset)));
+```
+I caught the string from [Wrld Time API](http://worldtimeapi.org) and then tested if it was *+GMT or -GMT*.
 
-## Theme Data
-the code is: 
-```
-theme: ThemeData(
-accentColor: Colors.amber[200],
-),
-```
 ## Completed Design
 |Loading Page|Home Page Day|Home Page Night|Edit Location|
 |---|---|---|---|
