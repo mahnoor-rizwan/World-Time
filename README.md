@@ -1,7 +1,6 @@
 # World Time (Mobile Application)
 
-In this pratice project I followed this tutorial while learning flutter through 
-[Flutter for Beginners](https://www.youtube.com/watch?v=1ukSR1GRtMU&list=PL4cUxeGkcC9jLYyp2Aoh6hcWuxFDX6PBJ) .
+I was following [Flutter for Beginners](https://www.youtube.com/watch?v=1ukSR1GRtMU&list=PL4cUxeGkcC9jLYyp2Aoh6hcWuxFDX6PBJ) tutorial while learning flutter basics and I made this application.
 
 ## Technology and platform
 Framework: flutter
@@ -11,11 +10,11 @@ Platroms: Android and ios
 2. ios -> deeloped (not tested yet)
 
 ## Challange in implementation
-After I implemented the code I realized that there was some problem with the time of places whose timezone is -GMT and I corrected it by applying this logic: 
+After I implemented the code I realized that there was some problem with the time of places whose timezone is *-GMT* and I corrected it by applying this logic: 
 ```
 sign == '+' ? now = now.add(Duration(hours: int.parse(offset))) : now = now.subtract(Duration(hours: int.parse(offset)));
 ```
-I caught the string from [Wrld Time API](http://worldtimeapi.org) and then tested if it was *+GMT or -GMT*.
+I caught the string from [World Time API](http://worldtimeapi.org) and then tested if it was *+GMT or -GMT*. Then I applied this logic so that correct time would be displayed.
 
 ## Completed Design
 |Loading Page|Home Page Day|Home Page Night|Edit Location|
