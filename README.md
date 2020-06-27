@@ -7,7 +7,7 @@ Framework: flutter
 
 Platroms: Android and ios
 1. Android -> Developed and tested
-2. ios -> deeloped (not tested yet)
+2. ios -> developed (not tested yet)
 
 ## Challange in implementation
 After I implemented the code I realized that there was some problem with the time of places whose timezone is *-GMT* and I corrected it by applying this logic: 
